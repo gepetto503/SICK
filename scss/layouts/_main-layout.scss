@@ -4,38 +4,32 @@ body {
   color: white;
 }
 
+//wraps everything in the body
 .flex-parent {
   display: flex;
   flex-direction: column;
 }
 
-.container {
+//first black section with text
+.intro {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
-  p {
-    line-height: 2em;
-    max-width: 66%;
-    text-align: center;
-    margin: auto;
-    margin-bottom: 40px;
-  }
-  form {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    label {
-      width: 30%;
-    }
-    input{
-      width: 60%;
-      color: black;
-    }
-    button {
+  .paragraph {
+    padding-top: 40px;
+    p {
+      font-size: 1.2em;
+      line-height: 2em;
+      max-width: 80%;
+      text-align: center;
       margin: auto;
-      background-color: black;
-      color: black;
+      margin-bottom: 40px;
     }
   }
+}
+
+//white section with form and results
+.form-results {
+  background: white;
+  color: black;
 }

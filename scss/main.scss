@@ -1,4 +1,8 @@
 @import
+'global/mixins';
+
+@import
   'layouts/main-layout',
   'layouts/header',
-  'layouts/docs';
+  'layouts/docs',
+  'layouts/form';
