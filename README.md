@@ -16,25 +16,16 @@ _Are you equally dedicated to H.R. Geiger, Adidas, and Smoothies? Do you wear th
 
 ## Setup/Installation Requirements
 
-_if you don't have it already, download and install Node JS._
-
-### From Scratch
-* _install node package manager and bower globally and in project folder_
-* _install gulp packages browserify, vinyl-source-stream, gulp-concat, gulp-uglify, gulp-util, del, gulp-jshint, browser-sync, gulp-sass & gulp-sourcemaps_
-* _install bower package bower-files_
-* _on command line, run gulp build and gulp serve_
-* _reflect in darkness_
-
-### From Cloned-Down template
-* _install node package manager and bower globally and in project folder.
-* _in terminal, from project folder root, run: npm install and bower install.  All dependencies will be installed according to the manifests._
+* _if you don't have it already, download and install Node JS._
+* _install node package manager and bower globally and in project folder._
+* _on command line, from project folder root, run: npm install and bower install._
 * _on command line, run gulp build and gulp serve_
 * _reflect in darkness_
 
 
 ## Known Bugs
 
-
+_the world is full of sickness_
 
 ## Support and contact details
 
