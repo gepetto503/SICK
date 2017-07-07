@@ -1,6 +1,37 @@
+.results {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .doc {
-  text-align: center;
-  li {
-    list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  // border: 1px solid grey;
+  border-radius: 5px;
+  width: 400px;
+  display: flex;
+  // border: 1px solid purple;
+  background: white;
+  h3 {
+    text-align: center;
+    background: black;
+    color:white;
+    margin: 0;
   }
+  .doc-deets {
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    h4, p{
+      padding: 10px;
+      display: inline-block;
+    }
+  }
+}
+
+.specs {
+  display: flex;
+  justify-content: center;
 }

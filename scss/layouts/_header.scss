@@ -1,14 +1,27 @@
-.header {
+.header-white-bg{
+  background: $grey;
+  width: 100vw;
   height: 400px;
-  // text-shadow: 1px 1px 2px black;
   @include tablet {
     height: 500px;
+  }
+  z-index: -100;
+  position: absolute;
+}
+
+.header {
+  height: 400px;
+  text-shadow: 1px 1px 1px black;
+  @include tablet {
+    height: 500px;
+    background-size: contain;
   }
   width: 100%;
   background: url('../../images/health-goth-banner.jpg') no-repeat;
   background-position-X: center;
   background-size: cover;
   position: relative;
+
   .header-text {
     background: rgba(0, 0, 0, .1);
     padding: 20px;

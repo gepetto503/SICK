@@ -10,6 +10,9 @@
   </head>
   <body>
     <div class="flex-parent">
+      <div class="header-white-bg">
+
+      </div>
       <div class="header">
         <div class="header-text">
           <h1>SICK.</h1>
@@ -23,17 +26,23 @@
         </article>
       </section>
       <section class="form-results">
-        <form id="sick-form">
-          <div class="form-group">
-            <label>Symptoms</label>
-            <input id="symptoms" type="text" placeholder="pain">
-          </div>
-          <!-- <div class="form-group">
-          <label>Location</label>
-          <input id="location" type="text">
-        </div> -->
-        <button type="submit">Get Health</button>
-      </form>
+        <div class="forms">
+          <form id="dropdown-form">
+            <h3>Choose From Specialists</h3>
+            <select class="specs">
+            </select>
+            <button type="submit">Get Healthy</button>
+          </form>
+          <h2>OR</h2>
+          <form id="search-form">
+            <h3>Search by Symptoms.</h3>
+            <div class="form-group">
+              <label>Symptoms</label>
+              <input id="symptoms" type="text" placeholder="pain.">
+            </div>
+            <button type="submit">Get Healthy</button>
+          </form>
+        </div>
       <div class="results">
       </div>
 
