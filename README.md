@@ -8,6 +8,12 @@
 
 _Are you equally dedicated to H.R. Geiger, Adidas, and Smoothies? Do you wear the most technical sportswear garments with an exclusively black and white color pallet?  If the answer is "what the hell are you even talking about," here's a little light reading on the phenomenon called Health Goth.  For the rest of us, SICK. is a service for locating nearby doctors for those who care as much about their current life as they do their eternal death.  I know, I know: Health Goth has been played out and is totally dead now.  But you're not, so find a doctor!_
 
+![screen shot of woman in health goth attire](https://github.com/gepetto503/SICK/blob/master/images/ss_banner.PNG)
+
+![screen shot of woman in health goth attire](https://github.com/gepetto503/SICK/blob/master/images/ss_docs.PNG)
+
+![screen shot of woman in health goth attire](https://github.com/gepetto503/SICK/blob/master/images/ss_search.PNG)
+
 ## Specs
 * _captures user inputs: symptom and location_
 * _passes inputs into url of api call along with api key_
